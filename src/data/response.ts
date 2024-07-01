@@ -1,4 +1,6 @@
-export const response = [{
+import {Char} from "../types/Char.ts";
+
+export const response: Char[] = [{
     "id": 1,
     "name": "Rick Sanchez",
     "status": "Alive",
